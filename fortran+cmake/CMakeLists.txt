@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(hello)
+project(fortran-cmake)
 enable_language(Fortran)
 
 if(CMAKE_Fortran_COMPILER_ID MATCHES "GNU")
@@ -23,4 +23,4 @@ set(CMAKE_Fortran_FLAGS "${CMAKE_Fortran_FLAGS} ${dialect}")
 # Compile.
 #
 file(GLOB_RECURSE sources  src/*.f90 src/*.h)
-add_executable(sample ${sources})
+add_executable(fortran-cmake ${sources})
