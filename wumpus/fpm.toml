@@ -1,9 +1,9 @@
 name = "wumpus"
 version = "0.1.0"
-license = "license"
-author = "Jane Doe"
-maintainer = "jane.doe@example.com"
-copyright = "Copyright 2022, Jane Doe"
+license = "MIT"
+author = "Matthew MacGregor"
+maintainer = "m.macgregor@gmail.com"
+copyright = "Copyright 2022-2024, Matthew MacGregor"
 [build]
 auto-executables = true
 auto-tests = true
