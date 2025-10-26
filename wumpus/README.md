@@ -11,8 +11,9 @@ This is a port of the classic BASIC program HUNT THE WUMPUS By GREGORY YOB. I co
 
 # Building
 
-To build, you will need `gfortran` and [fpm](https://fpm.fortran-lang.org/en/index.html). Once installed, build and run:
+To build, you will need `gfortran` and [fpm](https://fpm.fortran-lang.org/). Once installed, build and run:
 
 `fpm run`
+
 
 The program has only been tested with `gfortran`, but in theory other compilers should work as well. If you try it, let me know!
